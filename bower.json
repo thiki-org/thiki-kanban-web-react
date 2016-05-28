@@ -1,0 +1,26 @@
+{
+  "name": "think-kanban-web-react",
+  "description": "A web client for thiki-kanabn based on react.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thiki-org/thiki-kanban-web-react",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "authors": [
+    "濤 <btao.cn@gmail.com>",
+    "joeaniu <airlink@gmail.com>"
+  ],
+  "main": "",
+  "keywords": [
+    "thiki",
+    "kanban"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

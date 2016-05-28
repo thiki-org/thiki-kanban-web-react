@@ -1,0 +1,72 @@
+/* app css stylesheet */
+
+body {
+}
+
+div#kanban-top {
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 188, 91, 1);
+}
+
+.view-frame {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+button.btn.btn-primary {
+    background: none;
+    border: 1px solid white;
+}
+
+.create-entry-form {
+    margin: 10PX;
+    float: left;
+    width: 100%;
+}
+
+.input-group {
+    float: left;
+}
+
+.btn-group {
+    margin-left: 10px;
+}
+
+#create-new-entry-button {
+    border: 1px solid rgba(0, 188, 91, 1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#create-new-entry-button:hover {
+    background-color: rgba(0, 188, 91, 1);
+    color: white;
+    cursor: pointer;
+}
+
+div#search {
+    width: 15%;
+    float: right;
+    margin: 10px;
+}
+
+#search .form-control {
+    width: 100%;
+    height: 28px;
+    padding: 6px 12px;
+    background-color: rgba(227, 245, 236, 1);
+    border: 1px solid rgba(227, 245, 236, 1);
+    border-radius: 20px;
+}
+
+button.btn.btn-primary {
+    background: #00BC5B;
+    border: 1px solid #EEECE8;
+}

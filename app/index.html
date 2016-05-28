@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" ng-app="kanbanApp">
+<head>
+    <meta charset="utf-8">
+    <title>thiki Kanban</title>
+    <link rel="shortcut icon" type="image/png" href="static/img/favicon.ico"/>
+    <link rel="stylesheet" href="static/css/thiki-kanban.min.css">
+    <script src="bundle.js"></script>
+</head>
+<body>
+
+<div class="view-container">
+    <div id="kanban-top">
+        <div id="search">
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div ng-view class="view-frame"></div>
+</div>
+
+</body>
+</html>

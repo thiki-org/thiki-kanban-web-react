@@ -5,33 +5,25 @@ var ReactDOM = require('react-dom');
 
 var Entrys = React.createClass({
   render: function() {
-    var elapsed = Math.round(this.props.elapsed  / 100);
-    var seconds = elapsed / 10 + (elapsed % 10 ? '' : '.0' );
-    var message =
-      'React has been successfully running for ' + seconds + ' seconds.';
+      var tasks = [];
+      for (var i = 0; i < 4; i++) {
+          tasks.push(
+              <div className="task">
+                  <span className="task-title">task[{i}]'s.summary</span>
+              </div>
+          );
+      }
 
-    return (
-        <div className="entry">
-            <div id="entry1001" className="entry-item entryTitle">
-                entry's title
-            </div>
-            <div className="tasks">
-                <div className="task">
-                    <span className="task-title">task's.summary</span>
-                </div>
-            </div>
-            <div className="tasks">
-                <div className="task">
-                    <span className="task-title">task's.summary</span>
-                </div>
-            </div>
-            <div className="tasks">
-                <div className="task">
-                    <span className="task-title">task's.summary</span>
-                </div>
-            </div>
-        </div>
-    );
+      return (
+          <div className="entry">
+              <div id="entry1001" className="entry-item entryTitle">
+                  entry's title
+              </div>
+              <div className="tasks">
+                  {tasks}
+              </div>
+          </div>
+      );
   }
 });
 

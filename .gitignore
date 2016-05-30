@@ -1,3 +1,4 @@
 .idea
 app/bundle.js
+app/clock-bundle.js
 node_modules

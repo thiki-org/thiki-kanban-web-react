@@ -1,11 +1,10 @@
 <!doctype html>
-<html lang="en" ng-app="kanbanApp">
+<html>
 <head>
     <meta charset="utf-8">
     <title>thiki Kanban</title>
     <link rel="shortcut icon" type="image/png" href="static/img/favicon.ico"/>
     <link rel="stylesheet" href="static/css/thiki-kanban.min.css">
-    <!--<script src="bundle.js"></script>-->
 </head>
 <body>
 
@@ -15,51 +14,14 @@
             <input type="text" class="form-control">
         </div>
     </div>
-    <div class="entry">
-        <div id="entry1001" class="entry-item entryTitle">
-            entry's title
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <!--<task-creation/>-->
-    </div>
-    <div class="entry">
-        <div id="entry002" class="entry-item entryTitle">
-            entry's title
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <div class="tasks">
-            <div class="task">
-                <span class="task-title">task's.summary</span>
-            </div>
-        </div>
-        <!--<task-creation/>-->
+    <div id="entry-container" class="view-frame">
+        if u can see this, react is <strong>not</strong> working right.
     </div>
 
-    <!--<entry-creation/>-->
 </div>
-
+<script src="bundle.js"></script>
+<script>
+    console.log("dfdf="+ document.getElementById("entry-container"));
+</script>
 </body>
 </html>

@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 
 
 var Task = React.createClass({
-    render: function() {
+    render: function () {
         return (
             <div className="task">
                 <span className="task-title">{this.props.data.summary}</span>
@@ -15,8 +15,9 @@ var Task = React.createClass({
 
 });
 
+
 var Entrys = React.createClass({
-    render: function() {
+    render: function () {
         var tasks = this.props.tasks;
         return (
             <div className="entry">
@@ -25,8 +26,8 @@ var Entrys = React.createClass({
                 </div>
                 <div className="tasks">
                     {
-                        tasks.map(function (task){
-                            return <Task key={task.id} data={task} />
+                        tasks.map(function (task) {
+                            return <Task key={task.id} data={task}/>
                         })
                     }
                 </div>

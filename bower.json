@@ -6,6 +6,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "x-editable": "^1.5.1"
   },
   "authors": [
     "濤 <btao.cn@gmail.com>",
